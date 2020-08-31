@@ -1,17 +1,13 @@
 html, body {
     background-color: #F5FAFE;
     font-family: Muli;
- 
    
 }
 
 .headercontainer {
 display: grid;
 grid-template-rows: 60px 120px 60px;
-align-content: center;
 }
-
-
 .navtop {
 font-size: 10px;
 
