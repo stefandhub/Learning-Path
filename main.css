@@ -9,54 +9,49 @@ display: grid;
 grid-template-rows: 60px 120px 60px;
 }
 .navtop {
+display: flex;
 font-size: 10px;
-
+align-items: center;
 }
 
 #questions {
-    position: absolute;
+    position: relative;
     margin-left: 165px;
-    margin-top: 24px;
     min-width: 250px;
+    
 }
 #gifticon {
-    position: absolute;
-    margin-left: 957px;
-    margin-top: 25px;
+    position: relative;
+    margin-left: 549px;
+    
 }
 #gift {
-    position: absolute;
-    margin-left: 995px;
-    margin-top: 27px;
+    position: relative;
+    margin-left: 20px;
     min-width: 100px;
 }
 #staricon {
-    position: absolute;
-    margin-left: 1157px;
-    margin-top: 25px;
+    position: relative;
+    margin-left: 98px;
 }
 #loyalty {
-    position: absolute;
-    margin-left: 1195px;
-    margin-top: 27px;
+    position: relative;
+    margin-left: 20px;
     min-width: 150px;
 }
 .navbar {
     background-color: white;
     display: flex;
     flex-direction: row;
-
-
 }
 #logo {
-    position: absolute;
+    position: relative;
     margin-left: 165px;
     margin-top: 51px;
-   
 }
 #searchbutton {
-    position: absolute;
-    margin-left: 450px;
+    position: relative;
+    margin-left: 108px;
     width: 350px;
     height: 40px;
     margin-top: 40px;
@@ -117,37 +112,42 @@ font-size: 10px;
 }
 
 .BreadCrumb {
-    position: absolute;
+    display: flex;
+    align-items: center;
+    position: relative;
     width: 186px;
-    top: 278px;
-    left: 165px;
+    height: 50px;
+    top: 18px;
+    margin-left: 165px;
     font-size: 10px;
+    line-height: 13px;
+    color: #333333;
   }
 
 .valutationstars {
-    position: absolute;
-    top: 333px;
-    left: 166px;
+    position: relative;
+    margin-top: 23px;
+    margin-left: 166px;
 }
 
 
 .HotelName {
-    position: absolute;
-    top: 355px;
+    position: relative;
+    margin-top: 4px;
     left: 165px;
     font-size: 24px;
 }
 
 .subtitle {
-    position: absolute;
-    top: 375px;
-    left: 165px;
+    position: relative;
+    margin-top: 2px;
+    margin-left: 165px;
     font-size: 12px;
 }
 
 .flash {
     position: absolute;
-    top: 360px;
+    top: 350px;
     left: 447px;
     width: 70px;
     height: 16px;
@@ -181,7 +181,7 @@ font-size: 10px;
     position: relative;
     width: 1110px;
     left: 157px;
-    top: 200px;
+    margin-top: 00px;
     display: grid;
     grid-template-columns: 720px 350px;
     grid-template-rows: 225px 225px;
@@ -258,8 +258,8 @@ font-size: 10px;
 .cardsmenu {
     width: 1400px;
     height: 35px;
-    position: absolute;
-    top: 928px;
+    position: relative;
+    margin-top: 68px;
     font-size: 14px;
     font-weight: bold;
     color: #333333;
@@ -280,9 +280,9 @@ font-size: 10px;
 }
 
 .underline {
-    position: relative;
-    left: 163px;
-    top: 275px;
+    position: absolute;
+    left: 168px;
+    top: 988px;
     width: 130px;
     height: 4px;
     background-color: #EC1F46;
