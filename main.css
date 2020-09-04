@@ -573,7 +573,7 @@ html, body {
 
 
 .carddetails {
-    margin-top: 20px;
+    margin-top: 10px;
         
     }
 
@@ -594,8 +594,43 @@ html, body {
 #cardnewprice {
     font-weight: bold;
     font-size: 24px;
+    width: 300px;
+}
+.cardflash {
+    position: relative;
+    top: -250px;
+    right: 43px;
+    background-color: #EC1F46;
+    width: 50px;
+    height: 8px;
+    font-size: 8px;
+    padding: 5px;
+    border-radius: 0px 4px 4px 0px;
 }
 
+.card1flash {
+    position: relative;
+    top: 15px;
+    right: 367px;
+    color: white;
+    background-color: #EC1F46;
+    width: 270px;
+    height: 20px;
+    font-size: 12px;
+    padding: 6px 6px 1px 4px;
+    border-radius: 0px 4px 4px 0px;
+}
+.cardbutton {
+    position: relative;
+    background: #EC1F46;
+    border-radius: 4px;
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin-left: 92px;
+    border: solid rgba(255, 255, 255, 0);
+    top: -15px;
+}
 .guestreviewcontainer {
     margin-top: 98px;
     text-align: center;
