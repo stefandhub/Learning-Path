@@ -1,73 +1,84 @@
 html, body {
     background-color: #F5FAFE;
     font-family: Muli;
+    margin: 0px;
    
 }
 
 .headercontainer {
-display: grid;
-grid-template-rows: 60px 120px 60px;
+    display: grid;
+    grid-template-rows: 60px 120px 60px;
 }
 .navtop {
-display: flex;
-font-size: 10px;
-align-items: center;
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+    justify-content: space-between;
 }
 
-#questions {
-    position: relative;
-    margin-left: 165px;
-    min-width: 250px;
-    
+.divh1 {
+    margin-left: 10%;
+}
+.divh2 {
+    margin-right: 10%;
 }
 #gifticon {
-    position: relative;
-    margin-left: 549px;
-    
+
 }
 #gift {
-    position: relative;
     margin-left: 20px;
-    min-width: 100px;
+    width: 64px;
+    height: 13px;
+
 }
 #staricon {
-    position: relative;
     margin-left: 98px;
+   
 }
 #loyalty {
-    position: relative;
     margin-left: 20px;
-    min-width: 150px;
+    width: 77px;
+    height: 13px;
 }
 .navbar {
+    width: 100%;
     background-color: white;
     display: flex;
-    flex-direction: row;
+    align-items: center;
 }
 #logo {
-    position: relative;
-    margin-left: 165px;
-    margin-top: 51px;
+    margin-left: 10%;
+    width: 177px;
+    height: 24px;
 }
-#searchbutton {
-    position: relative;
-    margin-left: 108px;
-    width: 350px;
+.searchbutton {
+    margin-left: 12%;
+}
+#search{
+    
+    width: 285px;
+    height: 38px;
+    
+    border-width: 0px;
+    background-color: #F5FAFE;
+}
+
+#button{
+    background-color: #EC1F46;
+    border-width: 0px;
+    width: 65px;
     height: 40px;
-    margin-top: 40px;
-    background-color:#F5FAFE;
-    border-color:  rgba(0, 0, 0, 0);}
+    border-radius: 0px 6px 6px 0px;   
+}
 #cart {
-    position: absolute;
-    margin-left: 1038px;
-    margin-top: 42px;
+    margin-left: 25%;
 }
 #numberoncart {
     position: absolute;
     width: 20px;
     height: 20px;
-    left: 1059px;
-    top: 102px;
+    left: 1439px;
+    top: 97px;
     font-weight: 600;
     font-size: 10px;
     color: white;
@@ -80,37 +91,36 @@ align-items: center;
     
 }
 #avatar {
-    position: absolute;
-    margin-left: 1125px;
-    margin-top: 39px;
+    margin-left: 6%;
 }
 #name {
-    position: absolute;
-    margin-left: 1183px;
-    margin-top: 52px;
+    margin-left: 18px;
+    font-size: 14px;
 }
 #arrow {
-    position: absolute;
-    margin-left: 1253px;
-    margin-top: 49px;
+    margin-left: 21px;
+    width: 24px;
+    height: 24px;
+
 }
-.menu {
+.navbarBottom {
     background-color: #0A223D ;
     width: 100%;
     height: 80px;
     color: white;
     font-size: 14px;
+    display: flex;
+    align-items: center;
     
+}
+.menu{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
 
 }
-.menu li {
-    position: relative;
-    display: inline-flex;
-    padding-left: 83px;
-    left: 40px;
-    top: 16px;
-}
-
 .BreadCrumb {
     display: flex;
     align-items: center;
@@ -118,7 +128,7 @@ align-items: center;
     width: 186px;
     height: 50px;
     top: 18px;
-    margin-left: 165px;
+    margin-left: 10%;
     font-size: 10px;
     line-height: 13px;
     color: #333333;
@@ -127,28 +137,28 @@ align-items: center;
 .valutationstars {
     position: relative;
     margin-top: 23px;
-    margin-left: 166px;
+    margin-left: 10%;
 }
 
 
 .HotelName {
     position: relative;
     margin-top: 4px;
-    left: 165px;
+    margin-left: 10%;
     font-size: 24px;
 }
 
 .subtitle {
     position: relative;
     margin-top: 2px;
-    margin-left: 165px;
+    margin-left: 10%;
     font-size: 12px;
 }
 
 .flash {
     position: absolute;
-    top: 350px;
-    left: 447px;
+    top: 342px;
+    left: 467px;
     width: 70px;
     height: 16px;
     background-color:#EC1F46;
@@ -164,7 +174,7 @@ align-items: center;
     width: 55px;
     height: 35px;
     top: 339px;
-    left: 1200px;
+    left: 1650px;
     
     background-color: #EC1F46;
     color: white;
@@ -176,11 +186,13 @@ align-items: center;
 .spanratings {
     font-size: 14px;
 }
-
+.hotelinfo {
+    height: 100px;
+}
 .slider-booking-map {
     position: relative;
     width: 1110px;
-    left: 157px;
+    left: 10%;
     margin-top: 00px;
     display: grid;
     grid-template-columns: 720px 350px;
@@ -207,6 +219,8 @@ align-items: center;
     font-size: 13px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+   
+    margin-left: 410px;
 }
 
 .price {
@@ -252,53 +266,51 @@ align-items: center;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     height: 213px;
-    top: -20px;
+    top: -10px;
+    margin-left: 410px;
    
 }
-.cardsmenu {
-    width: 1400px;
-    height: 35px;
-    position: relative;
-    margin-top: 68px;
+.cardscontainer {
+    
+    width: 100%;
+    height: 80px;
+    color: white;
     font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
     font-weight: bold;
-    color: #333333;
 }
 
-.cardsmenu li {
+.cards {
+    color: #333333;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
     position: relative;
-    display: inline-flex;
-    padding-left: 54px;
-    left: 70px;
-    top: 16px;
+    
     }
 
 .inevidence {
     color: #EC1F46;
+    border-bottom: solid 4px;
+    height: 30px;
 
-
-}
-
-.underline {
-    position: absolute;
-    left: 168px;
-    top: 988px;
-    width: 130px;
-    height: 4px;
-    background-color: #EC1F46;
 }
 
 .container {
-    width:1110px;
+ 
     display:grid;
-    grid-template-columns:558px 558px;
-    position: absolute;
-    left: 135px;
-    top: 1112px;
+    grid-template-columns:758px 758px;
+    position: relative;
+    margin-left: 8%;
+    margin-top: 30px;
   }
   
   .tab {
-    width: 538px;
+    width: 738px;
     height: 200px;
     background-color: white;
     margin:32px;
@@ -308,7 +320,7 @@ align-items: center;
   .high  {
     color: white;
     background-color: #0a223d;
-    width: 514px;
+    width: 714px;
     height: 34px;
     padding-left: 24px;
     padding-top: 16px;
@@ -316,21 +328,22 @@ align-items: center;
   }
   
   .larger {
-    width:1100px;
+    width:1500px;
+    height: 400px;
   }
   .larg {
-    width: 1076px;
+    width: 1476px;
   }
 
   .packagesummary {
-      font-weight: bold;
-      font-size: 24px;
-      width: 240px;
-      height: 30px;
-      position: absolute;
-      left: 167px;
-      top: 1053px;
-      color: #333333;
+    font-weight: bold;
+    font-size: 24px;
+    width: 240px;
+    height: 30px;
+    position: relative;
+    margin-top: 47px;
+    margin-left: 10%;
+    color: #333333;
   }
 
   .tabhig {
@@ -346,44 +359,21 @@ align-items: center;
   }
 
   .ths {
-      position: relative;
-      margin-left: 21px;
-      font-size: 12px;
-    
+    position: relative;
+    margin-left: 21px;
+    font-size: 12px;    
   }
-  #prova {
-      width: 70%;
-  }
+ 
   .space {
-      color: white;
-  }
-
-  .high  {
     color: white;
-    background-color: #0A223D;
-    width: 514px;
-    height: 34px;
-    padding-left: 24px;
-    padding-top: 16px;
   }
-  
-  
-  .larger {
-    width:1100px;
-    height:400px;
-  }
-  .larg {
-    width: 1076px;
-    
-  }
-  
 
 .summaryflex {
-  position:relative;
-  margin-top: 38px;
-  display:flex;
-  margin-left: 27px;
-  flex-direction: row;
+    position:relative;
+    margin-top: 38px;
+    display:flex;
+    margin-left: 27px;
+    flex-direction: row;
 }
 
 .summaryflex span {
@@ -445,21 +435,21 @@ align-items: center;
 
 .otherpackages {
     position: relative;
-    width: 327px;
-    height: 45px;
-    margin-top: 98px;
-    margin-left: 556px;
+    margin-top: 98px;    
+    height: 45px;   
+    text-align: center;
     color: #333333;
     font-size: 36px;
     font-weight: bold;
     }
 .cardsscontainer {
-    width: 1110;
+    
     height: 1030px;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto; 
     margin-top: 65px;
+    margin-left: 10%;
     padding: 0px;
   }
   
@@ -469,7 +459,7 @@ align-items: center;
     grid-column: 1 /  3;
     grid-row: 1 / 2;
     height: 500px;
-    width: 730px;
+    width:967px;
     border-radius: 8px 8px 8px 8px;
     display: flex;
     flex-direction: row;
@@ -479,7 +469,7 @@ align-items: center;
     background-color: #0A223D;
     grid-column: 3 / 4;
     grid-row: 1 / 2;
-    margin-left: 30px;
+    margin-left: -12%;
     height: 500px;
     width: 350px;
     border-radius: 8px 8px 8px 8px;
@@ -501,7 +491,7 @@ align-items: center;
    background-color: #0A223D;
    grid-column: 2 / 3;
    grid-row: 2 / 3;
-   margin-left: 30px;
+   
    margin-top: 30px;
    height: 500px;
    width: 350px;
@@ -513,13 +503,13 @@ align-items: center;
    background-color: #0A223D;
    grid-column: 3 / 4;
    grid-row: 2 / 3;
-   margin-left: 30px;
+   margin-left: -12%;
    margin-top: 30px;
    height: 500px;
    width: 350px;
    border-radius: 8px 8px 8px 8px;
   }
-.cards {
+.cardsimg {
    border-radius: 8px 8px 0px 0px;
   }
 
@@ -567,4 +557,343 @@ align-items: center;
 #card1newprice {
     font-weight: bold;
     font-size: 24px;
+}
+
+.cardinfo {
+    color: white;
+    padding-top: 20px;
+    padding-left: 43px;
+ }
+
+#cardhotelname {
+ 
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+
+.carddetails {
+    margin-top: 20px;
+        
+    }
+
+.carddetailsdiv {
+    margin-top: 8px;
+    }
+
+
+.cardprice {
+    margin-top: 24px;
+    font-size: 14px;
+}
+
+#cardoldprice {
+    text-decoration-line: line-through;
+}
+
+#cardnewprice {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.guestreviewcontainer {
+    margin-top: 98px;
+    text-align: center;
+    height: 550px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.whatpeople {
+    
+    font-size: 36px;
+    font-weight: bold;
+
+    
+}  
+
+.user {
+    font-size: 10px;
+    position: relative;
+    top: -50px;
+    left: -260px;
+    text-align: center;
+    width: ;
+}
+
+.userreview {
+    font-size: 12px;
+    color: #EC1F46;
+    font-weight: bold;
+}
+
+.reviewbox {
+    width: 607px;
+    height: 238px;
+    font-size: 12px; 
+    display: flex;
+    flex-direction: column;
+    color: #333333; 
+    background-color: white;
+    text-align: justify;
+    padding: 0px 95px 30px 99px;
+    align-items: flex-end;
+    margin-top: 115px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.newsletter {
+    background-image: url(/Images/NEWSLETTER-BACKGROUND.png);
+    background-size: cover;
+
+}
+.newsletterbckg {
+    height: 261px;
+    background-color:rgba(10, 34, 61, 0.8);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.subscribe {
+    color: white;
+    font-size:24px;
+    font-weight: 300;
+    margin-left: 20%;
+}
+
+.subscribe2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.emailaddress {
+    margin-right: 20%;
+}
+
+#email {
+    width: 350px;
+    height: 56px;
+    border: solid rgba(255, 255, 255, 0);
+    padding-left: 33px;
+    border-radius: 4px;
+    color: #BDBDBD;
+}
+
+#send {
+    width: 65px;
+    height: 64px;
+    border: solid rgba(255, 255, 255, 0);
+    border-radius: 0px 4px 4px 0px;
+    margin-left: -65px;
+    background-color: #EC1F46;
+    color: white;
+}
+
+.otheractivities {
+    position: relative;
+    margin-left: 10%;
+    margin-top: 60px;
+    margin-right: 10%;
+}
+
+#other {
+    font-size: 24px;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    color: white;
+    
+}
+
+
+.groupcard {
+    width: 255px;
+    height: 255px;
+    border-radius: 6px;
+    background-size: cover; 
+    
+}
+.groupcard1 {
+    background-image:linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(/Images/Rectangle221.png);
+}
+
+.groupcard2 {
+    background-image:linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(/Images/Rectangle222.png);
+}
+
+.groupcard3 {
+    background-image:linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(/Images/Rectangle223.png);
+}
+
+.groupcard4 {
+    background-image:linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(/Images/Rectangle224.png);
+}
+
+.groupcardt {
+    position: relative;
+    margin-top: 150px;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+.booknow {
+    margin-left: 28px;
+    margin-top: 18px;
+    width: 100px;
+    height: 30px;
+    background-color: #EC1F46;
+    color: white;
+    border-radius: 4%;
+    border: solid rgba(255, 255, 255, 0);
+}
+
+.footercontainer {
+    background-color: #0A223D;
+    height: 900px;
+    margin-top: 100px;
+}
+.f1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+.footerlogo {
+    margin-top: 108px;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 64px;
+    font-family:'Luckiest Guy', cursive;
+    font-weight: bold;
+}
+
+.footerlogo2 {
+    color: #EC1F46;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+
+
+.legal, .allcategories , .additional {
+    
+    margin-top: 108px;
+    margin-right: 10%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footervoices {
+    font-size: 14px;
+    font-weight: normal;
+    color: #BDBDBD;
+}
+
+.socialnetwork {
+    position: relative;
+    padding-left: 40px;
+}
+
+.f2 {
+    display: flex;
+    flex-direction: row;
+    
+    color: white;
+}
+.contactmessage {
+    margin-left: 10%;
+    margin-top: 101px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.sendus {
+    position: relative;
+    padding-left: 7%;
+    width: 700px;
+    height: 317px;
+    
+}
+
+#feelfree {
+    margin-top: 35px;
+}
+
+.contactdetailsinfo {
+    margin-top: 30px;
+}
+
+.marginleft {
+    margin-left: 21px;
+}
+
+.phone {
+    margin-left: 41px;
+}
+
+.namenumber {
+    width: 255px;
+    height: 50px;
+    color: #BDBDBD;
+    padding-left: 23px;
+    border-radius: 4px;
+}
+.message {
+    width: 565px;
+    height: 123px;
+    border-radius: 4px;
+    margin-top: 15px;
+    padding-left: 23px;
+}
+
+#sendmessage {
+    width: 160px;
+    height: 50px;
+    color: white;
+    background-color: #EC1F46;
+    border: solid rgba(255, 255, 255, 0);
+    margin-top: 22px;
+}
+
+.required {
+    margin-left: 330px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #E0E0E0;
+}
+
+.footerbottom {
+    position: relative;
+    margin-top: 102px;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+
+.footerbottom span {
+    margin-left: 10px;
+}
+
+#footerbottomlogos {
+    margin-right: 10%;
+}
+.disclaimer {
+    margin-right: 25%;
+}
+
+#form {
+    margin-top: 30px;
 }
