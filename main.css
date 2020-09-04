@@ -121,7 +121,7 @@ html, body {
     align-self: center;
 
 }
-.BreadCrumb {
+.breadCrumb {
     display: flex;
     align-items: center;
     position: relative;
@@ -133,67 +133,71 @@ html, body {
     line-height: 13px;
     color: #333333;
   }
-
-.valutationstars {
-    position: relative;
-    margin-top: 23px;
+  .hotelName{
     margin-left: 10%;
+    margin-top: 24px;
+    display:flex;
+    flex-direction: column;
 }
-
-
-.HotelName {
-    position: relative;
+.stars{
+    margin-top: 18px;
+}
+.GrandHiltonHotel{
     margin-top: 4px;
-    margin-left: 10%;
     font-size: 24px;
+    font-weight: bold;
+    width: 95%;
 }
-
-.subtitle {
-    position: relative;
-    margin-top: 2px;
-    margin-left: 10%;
-    font-size: 12px;
-}
-
-.flash {
-    position: absolute;
-    top: 342px;
-    left: 467px;
-    width: 70px;
-    height: 16px;
-    background-color:#EC1F46;
+.flashOffer{
+    font-size: 10px;
+    background-color: #EC1F46;
     color: white;
-    font-size: 13px;
+    width: 58px;
+    height: 14px;
+    padding: 3px 6px;
     border-radius: 3px;
-    text-align: center;
-    padding: 2px;
-    
+    align-self: center;
+    margin-left: 14px;
+    top: -5px;
+    position: relative;
+
 }
-.ratings {
-    position: absolute;
-    width: 55px;
-    height: 35px;
-    top: 339px;
-    left: 1650px;
-    
+.hotelText{
+    font-size: 12px;
+    color:#333333;
+    position: relative;
+    top: -40px;
+}
+
+.userRatings {
+    width: 65px;
+    height: 45px;
     background-color: #EC1F46;
     color: white;
     font-size: 8px;
-    border-radius: 3px;
     text-align: center;
-    padding:5px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 89%;
+    position: relative;
+    top: -30px;
 }
-.spanratings {
+
+.ur1 {
     font-size: 14px;
 }
-.hotelinfo {
-    height: 100px;
+
+.ur2 {
+    font-size: 10px;
 }
+
 .slider-booking-map {
     position: relative;
     width: 1110px;
     left: 10%;
-    margin-top: 00px;
+    margin-top: 30px;
     display: grid;
     grid-template-columns: 720px 350px;
     grid-template-rows: 225px 225px;
