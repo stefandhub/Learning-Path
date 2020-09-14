@@ -392,9 +392,17 @@
             </div>
             <div class="contactmessage sendus">SEND US A MESSAGE
                 <form id="form" action="">
-                    <span><input class="namenumber" type="text" placeholder="Your Full Name*"></span>
-                    <span class="marginleft"><input class="namenumber" type="text" name="" id="" placeholder="Phone Number*"></span>
-                    <span><input class="message" type="text" placeholder="Message"></span>
+                    <span>
+                        <label for="fullName"></label>
+                        <input id="fullName" class="namenumber" type="text" placeholder="Your Full Name*">
+                    </span>
+                    <span class="marginleft">
+                        <label for="phoneNumber"></label>   
+                        <input id="phoneNumber" class="namenumber" type="text" name="" id="" placeholder="Phone Number*">
+                    </span>
+                    <span>
+                    <label for="Message"></label>    
+                    <input id="Message" class="message" type="text" placeholder="Message"></span>
                     <div><button id="sendmessage">Send</button>
                     <span class="required">* Required Fields</span></div>
                 </form>
