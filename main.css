@@ -617,11 +617,11 @@ body {
 
 .card1flash {
     position: relative;
-    top: 15px;
-    right: 367px;
+    top: -425px;
+    right: 409px;
     color: white;
     background-color: #EC1F46;
-    width: 400px;
+    width:94px;
     height: 20px;
     font-size: 12px;
     padding: 6px 6px 1px 4px;
